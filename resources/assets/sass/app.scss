@@ -17,6 +17,19 @@ body {
   border-top: 4px solid #00B5AD;
   margin-bottom: 40px;
   margin-top: 0px;
+
+  .dropdown-menu {
+    padding: 0px;
+
+    li a {
+      border-bottom: 1px solid #D8D8D8;
+      line-height: 2.4;
+
+      .glyphicon {
+        margin-right: 8px;
+      }
+    }
+  }
 }
 
 /* Sticky footer styles */
@@ -61,6 +74,39 @@ body {
   }
 }
 
+/* User profile page */
+.users-show-page {
+  .user-info {
+    .thumbnail {
+      margin-bottom: 0px;
+    }
+  }
+
+  .nav-tabs {
+    margin-bottom: 20px;
+
+    >li.active > a {
+      background-color: #FFFFFF;
+    }
+  }
+
+  .list-group {
+    .list-group-item {
+      border:none;
+      margin-bottom: 0px;
+      border-bottom: 1px solid #EFEFEF;
+
+      .meta {
+        color: #B3B3B3;
+      }
+    }
+  }
+
+  .pagination {
+    margin: 12px 0;
+  }
+}
+
 /* Topic Index Page */
 .topics-index-page .categories-show-page{
   .topic-list {
@@ -75,19 +121,19 @@ body {
     }
     .meta {
       font-size:0.9em;
-      color: #b3b3b3;
+      color: #B3B3B3;
       a {
-        color: #b3b3b3;
+        color: #B3B3B3;
       }
     }
     .badge {
-      background-color: #d8d8d8;
+      background-color: #D8D8D8;
     }
     hr {
       margin-top: 12px;
       margin-bottom: 12px;
       border: 0;
-      border-top: 1px solid #dcebf5;
+      border-top: 1px solid #DCEBF5;
     }
   }
 }

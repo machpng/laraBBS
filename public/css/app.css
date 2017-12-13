@@ -8366,6 +8366,19 @@ body {
   margin-top: 0px;
 }
 
+.navbar-static-top .dropdown-menu {
+  padding: 0px;
+}
+
+.navbar-static-top .dropdown-menu li a {
+  border-bottom: 1px solid #D8D8D8;
+  line-height: 2.4;
+}
+
+.navbar-static-top .dropdown-menu li a .glyphicon {
+  margin-right: 8px;
+}
+
 /* Sticky footer styles */
 
 html {
@@ -8409,6 +8422,34 @@ body {
   cursor: pointer;
 }
 
+/* User profile page */
+
+.users-show-page .user-info .thumbnail {
+  margin-bottom: 0px;
+}
+
+.users-show-page .nav-tabs {
+  margin-bottom: 20px;
+}
+
+.users-show-page .nav-tabs > li.active > a {
+  background-color: #FFFFFF;
+}
+
+.users-show-page .list-group .list-group-item {
+  border: none;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.users-show-page .list-group .list-group-item .meta {
+  color: #B3B3B3;
+}
+
+.users-show-page .pagination {
+  margin: 12px 0;
+}
+
 /* Topic Index Page */
 
 .topics-index-page .categories-show-page .topic-list .nav > li > a {
@@ -8424,21 +8465,21 @@ body {
 
 .topics-index-page .categories-show-page .topic-list .meta {
   font-size: 0.9em;
-  color: #b3b3b3;
+  color: #B3B3B3;
 }
 
 .topics-index-page .categories-show-page .topic-list .meta a {
-  color: #b3b3b3;
+  color: #B3B3B3;
 }
 
 .topics-index-page .categories-show-page .topic-list .badge {
-  background-color: #d8d8d8;
+  background-color: #D8D8D8;
 }
 
 .topics-index-page .categories-show-page .topic-list hr {
   margin-top: 12px;
   margin-bottom: 12px;
   border: 0;
-  border-top: 1px solid #dcebf5;
+  border-top: 1px solid #DCEBF5;
 }
 
