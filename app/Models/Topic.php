@@ -21,7 +21,7 @@ class Topic extends Model
         // 不同的排序，使用不同的数据读取逻辑
         switch ($order) {
             case 'recent' :
-                $query = $this->recent();
+                $query = $this->recent($query);
                 break;
             default:
                 $query = $this->recentReplied();
@@ -41,6 +41,7 @@ class Topic extends Model
 
     public function scopeRecent($query)
     {
+        dd(1);
         // 按照创建时间排序
         return $query->orderBy('created_at', 'desc');
     }
