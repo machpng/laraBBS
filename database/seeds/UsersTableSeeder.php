@@ -42,7 +42,7 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'machpng';
         $user->email = '416007060@qq.com';
-        $user->avatar = 'http://larabbs.app/uploads/images/avatars/201712/12//2_1513045735_axOpB4WVlj.jpg';
+        $user->avatar = 'http://larabbs.local/uploads/images/avatars/201712/12//2_1513045735_axOpB4WVlj.jpg';
         $user->introduction = 'Just Do it.';
         $user->save();
     }
