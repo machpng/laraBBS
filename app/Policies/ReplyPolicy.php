@@ -9,6 +9,6 @@ class ReplyPolicy extends Policy
 {
     public function destroy(User $user, Reply $reply)
     {
-        return $user->isAuthorOf($reply) || $user->is($reply->topic);
+        return $user->isAuthorOf($reply) || $user->isAuthorOf($reply->topic);
     }
 }
