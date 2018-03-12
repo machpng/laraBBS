@@ -178,6 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Frozennode\Administrator\AdministratorServiceProvider::class,
 
+        App\Providers\EasySmsServiceProvider::class,
+
     ],
 
     /*
