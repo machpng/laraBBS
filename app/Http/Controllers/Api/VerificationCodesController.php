@@ -31,7 +31,7 @@ class VerificationCodesController extends Controller
         }
 
         $phone = $captchaData['phone'];
-        
+
         // 非生产环境验证码为1234
         if (!app()->environment('production')) {
             $code = '1234';
